@@ -15,10 +15,10 @@ class Smartphone(Device):
         self.battery = battery
     
     def make_call(self, number):
-        print(f"Calling {number} from {self.brand} {self.model} 📞")
+        print(f"Calling {number} from {self.brand} {self.model} ")
     
     def charge(self):
-        print(f"{self.brand} {self.model} is charging 🔋")
+        print(f"{self.brand} {self.model} is charging ")
 
 # Creating objects
 phone1 = Smartphone("Samsung", "Galaxy S22", "256GB", "4000mAh")
